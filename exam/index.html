@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="nav">
+            <h1>Kill The Monster</h1>
+        </div>
+        <div class="container">
+                <div class="health">
+                <h3>Monster Health</h3>
+                <div class="bar" id="mosterhealth">
+                    <div class="bar_fill"></div>
+                </div></div>
+                <div class="health">
+                <h3>Your Health</h3>
+                <div class="bar" id="yourhealth">
+                    <div class="bar_fill"></div>
+                </div>
+            </div>
+        
+
+        <form action="script.js">
+            <input type="submit" value="ATTACK" id="attackbtn">
+            <input type="submit" value="SPECIAL ATTACK" id="specialattackbtn">
+            <input type="submit" value="HEAL" id="healbtn">
+            <input type="submit" value="GIVE UP" id="giveupbtn">
+        </form>
+        
+        <h3>Battle Log</h3>
+        <div class="log"></div>
+        </div>
+    
+</body>
+</html>
